@@ -7,8 +7,14 @@
 
 <h1>Data</h1>
 
-	<h1>{{id}}</h1>
-	<h2>{{body}}</h2>
+	<h1>{{article.title}}</h1>
+
+	<small>Written by {{article.author}} on {{article.create_date}}</small>
+
+	<hr>
+		<div>
+			{{article.bady | safe }}
+		</div>
 
 
 {% endblock %}
