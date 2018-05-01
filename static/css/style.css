@@ -1,0 +1,32 @@
+/* Your custom styles */
+
+#musa{
+	height: 600px;
+
+}
+
+#musa{
+	 
+	background-image:url("../static/img/dc.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
+
+
+#exmpales img{
+
+	height: 200px;
+}
+
+
+#galley img{
+	height: 330px;
+}
+.mx li a{
+	color: #ffffff;
+	text-decoration-color: #ffffff;
+}

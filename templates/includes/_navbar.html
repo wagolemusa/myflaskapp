@@ -16,18 +16,20 @@
                 <a class="nav-link" href="/articles">Articles</a>
             
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav nav-flex-icon ml-auto primary-color">
+
             {% if session.logged_in %}
-                 <li><a href="/logout">Logout</a></li>
-                 <li><a href="/dashboard">Dashboard</a></li>
+                 <li><a class="nav-link" href="/logout">Logout</a></li>
+                 <li><a class="nav-link" href="/dashboard">Dashboard</a></li>
             {% else %}
 
-                <li><a href="/register">Register</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a class="nav-link" href="/register">Register</a></li>
+                <li><a class="nav-link" href="/login">Login</a></li>
 
             {% endif %}
-        </ul>
 
+        </ul>
 
     </div>
 </nav>
+
